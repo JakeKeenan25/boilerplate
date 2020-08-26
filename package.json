@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Boiler Plate Project structure",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --recursive tests",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeKeenan25/boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeKeenan25/boilerplate/issues"
+  },
+  "homepage": "https://github.com/JakeKeenan25/boilerplate#readme",
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "mocha": "^8.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
